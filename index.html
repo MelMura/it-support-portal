@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>IT Service &amp; Troubleshooting Portal</title>
+  <meta name="description" content="Internal-style helpdesk knowledge base — DNS, VPN and hardware-replacement guides, built by Melissa Muradzikwa.">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root{
+      --theme-color: #2f6690;
+    }
+    .app-name-link img{ display:none; }
+    .sidebar{ border-right: 1px solid #eee; }
+    .markdown-section code{ background:#f3f6f8; }
+    .cover-main{ text-align:left !important; }
+  </style>
+</head>
+<body>
+  <div id="app">Loading…</div>
+  <script>
+    window.$docsify = {
+      name: 'IT Service & Troubleshooting Portal',
+      nameLink: false,
+      repo: '',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: {
+        paths: 'auto',
+        placeholder: 'Search the knowledge base…',
+        noData: 'No results.'
+      },
+      copyCode: {
+        buttonText: 'Copy'
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+</body>
+</html>
