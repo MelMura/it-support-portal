@@ -16,9 +16,9 @@ something a colleague — or your future self — can follow without you in the 
 
 | Guide | Covers |
 |---|---|
-| [Fixing DNS Resolution Issues](guides/dns-resolution.md) | "Can't reach this site" / "server not found" errors on a client machine |
-| [VPN Client Setup Guide](guides/vpn-setup.md) | Setting up and troubleshooting a client VPN connection |
-| [Hardware Replacement Request Flow](guides/hardware-replacement.md) | The process from "this device is broken" to a replacement in hand |
+| [Fixing DNS Resolution Issues](dns-resolution.md) | "Can't reach this site" / "server not found" errors on a client machine |
+| [VPN Client Setup Guide](vpn-setup.md) | Setting up and troubleshooting a client VPN connection |
+| [Hardware Replacement Request Flow](hardware-replacement.md) | The process from "this device is broken" to a replacement in hand |
 
 Use the sidebar or the search bar (top left) to jump straight to a guide.
 
